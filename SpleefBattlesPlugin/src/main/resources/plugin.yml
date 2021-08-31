@@ -1,0 +1,14 @@
+  name: Spleef-Battles
+  main: tech.madsj.SpleefBattlesPlugin
+  version: 1.0
+  api-version: 1.16
+  commands:
+    spleef:
+      description: Base command for spleef battles
+      usage: /command help - To see more info
+    spleef-accept-invite:
+      description: Used to accept invites
+      default: true
+    spleef-deny-invite:
+      description: Used to deny invites
+      default: true
